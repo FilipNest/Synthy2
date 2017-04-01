@@ -1,8 +1,12 @@
+p {
+  font-size: 10px
+}
 body {
   width: 612px;
   margin: auto;
   text-align: center;
   font-family: monospace;
+  margin-bottom:50px;
 }
 button {
   display: inline-block;
@@ -30,12 +34,12 @@ input[type=radio] {
   width: 20px;
 }
 .octave {
-  position:relative;
-  top:10px;
+  position: relative;
+  top: 10px;
   display: inline-block;
 }
 select {
-  font-size:80%;
+  font-size: 80%;
   font-family: monospace;
   display: block;
   float: right;
