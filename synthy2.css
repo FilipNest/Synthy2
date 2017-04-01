@@ -1,0 +1,44 @@
+body {
+  width: 612px;
+  margin: auto;
+  text-align: center;
+  font-family: monospace;
+}
+button {
+  display: inline-block;
+  padding: 10px;
+  margin: 10px;
+  margin-bottom: 40px;
+}
+.pad {
+  visibility: hidden;
+}
+.pad-block {
+  display: inline-block;
+  width: 130px;
+  text-align: right;
+}
+.pad-block div:nth-of-type(2) {
+  opacity: 0.2;
+}
+.pad-block.active div:nth-of-type(2) {
+  opacity: 1
+}
+input[type=radio] {
+  display: block;
+  height: 20px;
+  width: 20px;
+}
+.octave {
+  position:relative;
+  top:10px;
+  display: inline-block;
+}
+select {
+  font-size:80%;
+  font-family: monospace;
+  display: block;
+  float: right;
+  margin: 0px;
+  padding: 0px;
+}
